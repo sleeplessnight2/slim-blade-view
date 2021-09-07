@@ -1,0 +1,34 @@
+{
+  "name": "sleeplessnight2/slim-blade-view",
+  "type": "library",
+  "description": "Fork of rubellum/Slim-Blade-View with Slim Framework v4 and Laravel Blade Templates v8 support",
+  "keywords": [
+    "slim",
+    "framework",
+    "view",
+    "template",
+    "blade",
+    "renderer"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hiroaki Matsuura",
+      "email": "lib2jp@gmail.com"
+    }
+  ],
+  "require": {
+    "jenssegers/blade": "^1.4",
+    "ramsey/uuid": "^4.1.1",
+    "psr/http-message": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Slim\\Views\\": "src"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0",
+    "slim/slim": "^4.0"
+  }
+}
